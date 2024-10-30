@@ -86,12 +86,6 @@ class LinkedList
     nil
   end
 
-  def insert_at(value, index)
-  end
-
-  def remove_at(index)
-  end
-
   def to_s
     finished = false
     current_node = @root.next_node.nil? ? @root : @root.next_node
